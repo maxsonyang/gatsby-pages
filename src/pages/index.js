@@ -1,12 +1,8 @@
-import * as React from "react"
+import * as React from "react";
 
 // markup
-const IndexPage = () => {
-  return (
-    <div>
-      This is the index page yes.
-    </div>
-  )
+function IndexPage() {
+  return <div>This is the index page yes.</div>;
 }
 
-export default IndexPage
+export default IndexPage;

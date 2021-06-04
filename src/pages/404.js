@@ -1,13 +1,8 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
 
 // markup
-const NotFoundPage = () => {
-  return (
-    <main>
-      404 * 2 == 808
-    </main>
-  )
+function NotFoundPage() {
+  return <main>404 * 2 == 808</main>;
 }
 
-export default NotFoundPage
+export default NotFoundPage;
