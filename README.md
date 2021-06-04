@@ -6,4 +6,6 @@ Using this primarily for my personal website as I have different projects/portio
 ## Comes with
 
 * gh-pages
-* this readme.
+* Sass
+* ESLint configured with AirBnB and Prettier configuration [credits](https://medium.com/@joshuacrass/javascript-linting-and-formatting-with-eslint-prettier-and-airbnb-30eb746db862)
+* Breakpoints in `styles/breakpoints.scss`
