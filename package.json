@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-pages",
+  "name": "change-this",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby-pages",
-  "author": "maxsonyang",
+  "description": "change-this",
+  "author": "change-this",
   "keywords": [
     "gatsby"
   ],
@@ -13,6 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "lint": "eslint src -c .eslintrc.json --ext js,jsx",
     "check-staged": "lint-staged"
   },
